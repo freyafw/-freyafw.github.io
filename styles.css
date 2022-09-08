@@ -15,7 +15,7 @@ li {
 header {
 list-style-type: none;
 margin: 0;
-padding: 2rem;
+padding: 0;
 background-color:olivedrab;
 overflow: hidden;
 position: fixed;
