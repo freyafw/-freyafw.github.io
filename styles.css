@@ -1,8 +1,14 @@
 body {
-    margin-top: 16PX;
-    background-color:burlywood;
-    
+    margin: 0;
 }
+
+div {
+    background-color:burlywood;
+    padding: 20px;
+    margin-top: 30px;
+    height: 1500px;
+}
+    
 
 li {
     float: left;
