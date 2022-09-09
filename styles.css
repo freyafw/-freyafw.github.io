@@ -17,7 +17,7 @@ header > ul > li {
     float: left;
 }
 
-.headerblock {
+header > ul > li > a {
     display: block;
     color: white;
     text-align: center;
@@ -33,9 +33,21 @@ header > ul > li > a:hover:not(.headeractive) {
     background-color:darkslategray;
 }
 
+header > ul > div {
+    float: right;
+}
+
 .dropdown {
     position: relative;
     display: inline-block;
+}
+
+.dropbtn {
+    background-color:seagreen;
+    color:white;
+    padding: 14px 16px;
+    border: none;
+    text-align: center;
     cursor: pointer;
 }
 
@@ -60,6 +72,10 @@ header > ul > li > a:hover:not(.headeractive) {
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color:darkseagreen;
 }
 
 main {
