@@ -70,16 +70,15 @@ header > ul > div {
     background-color: lightseagreen;
 }
 
-.dropdown:hover .dropdown-content {
+.dropdown:hover > .dropdown-content {
     display: block;
 }
 
-.dropdown:hover .dropbtn {
+.dropdown:hover > .dropbtn {
     background-color:darkseagreen;
 }
 
 main {
-    margin-left: 20%;
     margin-top: 28px;
     margin-bottom: 28px;
     padding: 20px;
