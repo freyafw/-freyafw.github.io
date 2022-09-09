@@ -37,12 +37,12 @@ header > ul > li > a:hover:not(.headeractive) {
 
 div > ul {
     list-style-type: none;
-    margin: 0;
+    margin-top: 30px;
     padding: 0;
     width: 25%;
     background-color:mediumseagreen;
     position: fixed;
-    height: 1fr;
+    height: 100%;
     overflow: auto;
 }
 
@@ -68,17 +68,22 @@ main {
     margin-top: 30px;
     margin-bottom: 30px;
     padding: 20px;
-    height: 1fr;
+    height: 100%;
 }
 
 footer {
     position: fixed;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:seagreen;
     bottom: 0;
     width: 100%;
     height: auto;
 }
 
 footer > p {
+    display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
