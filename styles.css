@@ -33,6 +33,12 @@ header > ul > li > a:hover:not(.headeractive) {
     background-color:darkslategray;
 }
 
+.dropdown {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
 .dropdown-content {
     display: none;
     position: absolute;
