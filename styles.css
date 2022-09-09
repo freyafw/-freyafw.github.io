@@ -33,6 +33,11 @@ header > ul > li > a:hover:not(.headeractive) {
     background-color:darkslategray;
 }
 
+div {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 div > ul {
     list-style-type: none;
     margin: 0;
