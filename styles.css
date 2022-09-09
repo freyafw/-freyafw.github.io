@@ -36,9 +36,9 @@ header > ul > li > a:hover:not(.headeractive) {
 
 div > ul {
     list-style-type: none;
-    margin-top: 30px;
+    margin: 30px 0px 30px;
     padding: 0;
-    width: 25%;
+    width: auto;
     background-color:mediumseagreen;
     position: fixed;
     height: 100%;
@@ -63,31 +63,34 @@ div > ul > li > a:hover:not(.leftactive) {
 }
 
 main {
-    margin-left: 25%;
+    margin-left: 1fr;
     margin-top: 30px;
     margin-bottom: 30px;
     padding: 20px;
     height: 100%;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
-footer > p {
-    position: fixed;
+footer > ul {
+    list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color:seagreen;
+    position: fixed;
     bottom: 0;
     width: 100%;
 }
 
-footer > section {
+footer > ul > li {
     float: left;
 }
 
-footer > section > p {
+footer > ul > li > p {
     display: block;
     color: white;
-    text-align: center;
+    text-align: left;
     padding: 14px 16px;
     text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
 }
