@@ -41,7 +41,7 @@ div > ul {
     position: fixed;
     height: 100%;
     overflow: auto;
-    margin-top:28px;
+    margin-top:20px;
 }
 
 div > ul > li > a {
