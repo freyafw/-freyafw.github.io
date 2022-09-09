@@ -35,7 +35,7 @@ header > ul > li > a:hover:not(.headeractive) {
 
 div > ul {
     list-style-type: none;
-    margin: 0;
+    margin-top: 28px;
     padding: 0;
     width: 20%;
     background-color:mediumseagreen;
@@ -62,8 +62,8 @@ div > ul > li > a:hover:not(.leftactive) {
 
 main {
     margin-left: 20%;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 28px;
+    margin-bottom: 28px;
     padding: 20px;
     height: 100%;
     overflow: auto;
