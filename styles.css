@@ -11,7 +11,6 @@ header > ul {
     position: fixed;
     top: 0;
     width: 100%;
-    height: auto;
 }
 
 header > ul > li {
@@ -71,7 +70,7 @@ main {
     height: 100%;
 }
 
-footer {
+footer > p {
     position: fixed;
     margin: 0;
     padding: 0;
@@ -79,10 +78,13 @@ footer {
     background-color:seagreen;
     bottom: 0;
     width: 100%;
-    height: auto;
 }
 
-footer > p {
+footer > section {
+    float: left;
+}
+
+footer > section > p {
     display: block;
     color: white;
     text-align: center;
