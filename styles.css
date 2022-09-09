@@ -69,7 +69,7 @@ header > ul > div {
     text-decoration: none;
 }
 
-.dropdown:hover > button > .dropdown-content {
+.dropdown:hover > .dropbtn > .dropdown-content {
     display: block;
 }
 
