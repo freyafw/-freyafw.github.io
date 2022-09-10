@@ -29,6 +29,10 @@ header > ul > li > a:hover:not(.headeractive) {
     background-color:darkseagreen;
 }
 
+header > ul > div > button:hover:not(.headeractive) {
+    background-color:darkseagreen;
+}
+
 .headeractive {
     background-color:darkslategray;
 }
@@ -62,19 +66,11 @@ header > ul > div {
     z-index: 1;
 }
 
-.dropdown-content > a {
+header > ul > div > div > a {
     display: block;
-    color: black;
+    color:black;
     padding: 12px 16px;
     text-decoration: none;
-}
-
-.dropdown:hover > .dropbtn > .dropdown-content {
-    display: block;
-}
-
-.dropdown:hover {
-    background-color: darkseagreen;
 }
 
 .dropdown-content > a:hover {
