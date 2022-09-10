@@ -57,6 +57,7 @@ li.dropdown {
 
 .dropdown:hover .dropdown-content {
     display: block;
+    position: fixed;
 }
 
 .dropdown-content a:hover {
