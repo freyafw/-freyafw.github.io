@@ -17,7 +17,7 @@ header > ul > li {
     float: left;
 }
 
-header > ul > li > a {
+header > ul > li > a, .dropbtn {
     display: block;
     color: white;
     text-align: center;
@@ -25,55 +25,37 @@ header > ul > li > a {
     text-decoration: none;
 }
 
-header > ul > li > a:hover:not(.headeractive) {
+header > ul > li > a:hover:not(.headeractive), .dropdown:hover:not(.headeractive) .dropbtn {
     background-color:darkseagreen;
 }
 
-header > ul > div > button:hover:not(.headeractive) {
-    background-color:darkseagreen;
+li.dropdown {
+    display: inline-block;
 }
 
 .headeractive {
     background-color:darkslategray;
 }
 
-header > ul > div {
-    float: right;
-}
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropbtn {
-    background-color:seagreen;
-    color:white;
-    padding: 14px 16px;
-    text-align: center;
-    text-decoration: none;
-    border: none;
-    cursor: pointer;
-}
-
 .dropdown-content {
     display: none;
     position: absolute;
-    right: 0;
     background-color:mediumseagreen;
-    min-width: 100%;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     overflow: auto;
     z-index: 1;
 }
 
-header > ul > div > div > a {
+.dropdown-content a {
     display: block;
     color: black;
     padding: 12px 16px;
     text-decoration: none;
+    text-align: left;
 }
 
-.dropdown:hover header > ul > div > div > a {
+.dropdown:hover .dropdown-content {
     display: block;
 }
 
