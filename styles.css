@@ -18,11 +18,11 @@ li {
     cursor: pointer;
 }
 
-li > a {
+li a {
     float: left;
 }
 
-li > button {
+li button {
     float: right;
 }
 
@@ -40,7 +40,7 @@ li a, .dropbtn {
     text-decoration: none;
 }
 
-header > ul > li > a:hover:not(.headeractive), .dropdown:hover:not(.headeractive) .dropbtn:hover:not(.headeractive) {
+header > ul > li a:hover:not(.headeractive), .dropdown:hover:not(.headeractive) .dropbtn {
     background-color:darkseagreen;
 }
 
