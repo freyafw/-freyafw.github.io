@@ -57,7 +57,8 @@ li.dropdown {
 
 .dropdown:hover .dropdown-content {
     display: block;
-    position: fixed;
+    position: absolute;
+    visibility: visible;
 }
 
 .dropdown-content a:hover {
