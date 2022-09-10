@@ -41,7 +41,7 @@ header > ul > li > a {
     margin: 0;
 }
 
-header > ul > li > a:hover:not(.headeractive) .dropdown:hover:not(.headeractive) .dropbtn:hover:not(.headeractive) {
+header > ul > li > a:hover:not(.headeractive), .dropdown:hover:not(.headeractive), .dropbtn:hover:not(.headeractive) {
     background-color:darkseagreen;
 }
 
@@ -58,7 +58,7 @@ header > ul > li > a:hover:not(.headeractive) .dropdown:hover:not(.headeractive)
     z-index: 1;
 }
 
-.dropdown-content a {
+.dropdown-content > a {
     float: none;
     display: block;
     color: black;
@@ -67,11 +67,11 @@ header > ul > li > a:hover:not(.headeractive) .dropdown:hover:not(.headeractive)
     text-align: left;
 }
 
-.dropdown-content a:hover {
+.dropdown-content > a:hover {
     background-color:lightseagreen;
 }
 
-.dropdown:hover .dropdown-content {
+.dropdown:hover > .dropdown-content {
     display: block;
     visibility: visible;
 }
