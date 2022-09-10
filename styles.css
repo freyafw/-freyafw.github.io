@@ -3,7 +3,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header > ul {
+nav > ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -14,11 +14,15 @@ header > ul {
     width: 100%;
 }
 
-header > ul > li {
+nav > ul > li {
     float: left;
 }
 
-header > ul > li > a, .dropbtn {
+li {
+    cursor: pointer;
+}
+
+nav > ul > li > a, .dropbtn {
     display: block;
     color: white;
     text-align: center;
@@ -41,7 +45,7 @@ header > ul > li > a, .dropbtn {
     margin: 0;
 }
 
-header > ul > li > a:hover:not(.headeractive) .dropdown:hover:not(.headeractive) .dropbtn:hover:not(.headeractive) {
+nav > ul > li > a:hover:not(.headeractive) .dropdown:hover:not(.headeractive) .dropbtn:hover:not(.headeractive) {
     background-color:darkseagreen;
 }
 
@@ -50,6 +54,10 @@ header > ul > li > a:hover:not(.headeractive) .dropdown:hover:not(.headeractive)
 }
 
 .dropdown-content {
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s ease;
+    margin-top: 1rem;
     display: none;
     position: absolute;
     background-color:mediumseagreen;
