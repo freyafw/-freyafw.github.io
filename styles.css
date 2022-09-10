@@ -41,7 +41,7 @@ header > ul > li > a {
     margin: 0;
 }
 
-header > ul > li > a:hover:not(.headeractive) .dropdown:hover:not(.headeractive) .dropbtn:hover:not(.headeractive) {
+header > ul > li > a:hover:not(.headeractive) .dropdown:hover:not(.headeractive) .dropbtn {
     background-color:darkseagreen;
 }
 
@@ -53,7 +53,7 @@ header > ul > li > a:hover:not(.headeractive) .dropdown:hover:not(.headeractive)
     display: none;
     position: absolute;
     background-color:mediumseagreen;
-    min-width: 160px;
+    min-width: 100%;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
