@@ -15,8 +15,19 @@ header > ul {
 }
 
 li {
-    float: left;
     cursor: pointer;
+}
+
+li > a {
+    float: left;
+}
+
+li > button {
+    float: right;
+}
+
+.dropbtn {
+    overflow: auto;
 }
 
 li a, .dropbtn {
