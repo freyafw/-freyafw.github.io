@@ -73,6 +73,7 @@ header > ul > li > a:hover:not(.headeractive) .dropdown:hover:not(.headeractive)
 
 .dropdown:hover .dropdown-content {
     display: block;
+    visibility: visible;
 }
 
 main {
