@@ -1,21 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>dashboard</title>
-    <link href="styles.css" rel="stylesheet" />
-</head>
-<body>
-    <h1>Dashboard</h1>
-    <nav>
-        <a href="https://freyafw.github.io/index.html">link to Index page</a>
-        <a href="https://freyafw.github.io/profile.html">link to Profile page</a>
-        <a href="https://freyafw.github.io/dashboard.html">link to Dashboard page</a>
-        <a href="https://freyafw.github.io/faq.html">link to FAQ page</a>
-        <a href="https://freyafw.github.io/blog.html">link to Blog page</a>
-    </nav>
-</body>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="styles.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Dashboard</title>
+    </head>
+    
+    <body>
+        <header>
+            <ul>
+                <li><a class="active" href="index.html">HOME</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Aside</a>
+                    <div class="dropdown-content">
+                        <a href="index.html">HOME</a>
+                        <a href="profile.html">Profile</a>
+                        <a href="dashboard.html">Dashboard</a>
+                        <a href="faq.html">FAQ</a>
+                        <a href="blog.html">Blog</a>
+                    </div>
+                </li>
+            </ul>
+        </header>
+        <main>
+            <section>
+                <article>
+                    <p>Main</p>
+                </article>
+            </section>
+        </main>
+        <footer>
+            <ul>
+                <li>
+                    <div>Footer</div>
+                    <div>Socials</div>
+                </li>
+            </ul>
+        </footer>
+    </body>
 
 </html>
