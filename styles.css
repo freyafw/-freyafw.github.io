@@ -3,7 +3,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-ul {
+header > ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -63,6 +63,17 @@ li.dropdown {
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+footer > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #5B7859;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 main {
