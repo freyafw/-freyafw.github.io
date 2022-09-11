@@ -79,7 +79,7 @@ footer > ul {
     width: 100%;
 }
 
-li p {
+footer > ul > li p {
     display: block;
     color: white;
     text-align: center;
