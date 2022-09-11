@@ -79,6 +79,10 @@ footer > ul {
     width: 100%;
 }
 
+li p {
+    display: block;
+}
+
 main {
     margin-top: 28px;
     margin-bottom: 28px;
