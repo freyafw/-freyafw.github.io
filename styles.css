@@ -18,7 +18,7 @@ li {
     float: left;
 }
 
-li a, li p, .dropbtn {
+li a, .dropbtn, li p {
     display: inline-block;
     color: white;
     text-align: center;
@@ -26,7 +26,7 @@ li a, li p, .dropbtn {
     text-decoration: none;
 }
 
-li a:hover:not(.active, .dropdown-content a), .dropdown:hover .dropbtn, li p {
+li a:hover:not(.active, .dropdown-content a), .dropdown:hover .dropbtn {
     background-color: #72966F;
 }
 
@@ -36,6 +36,9 @@ li a:hover:not(.active, .dropdown-content a), .dropdown:hover .dropbtn, li p {
 
 li.dropdown {
     display: inline-block;
+}
+
+.dropdown {
     float: right;
 }
 
