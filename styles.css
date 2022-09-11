@@ -79,8 +79,8 @@ footer > ul {
     width: 100%;
 }
 
-footer > ul > li p {
-    display: block;
+li div {
+    display: inline-block;
     color: white;
     text-align: center;
     padding: 14px 16px;
