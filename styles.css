@@ -90,11 +90,14 @@ li div {
 }
 
 .fa {
-    float: right;
     padding: 14px 16px;
     text-align: center;
     bottom: 0;
     text-decoration: none;
+}
+
+footer > ul > li > a {
+    float: right;
 }
 
 .fa:hover {
@@ -102,17 +105,17 @@ li div {
 }
 
 .fa-spotify {
-    background-color: #191414;
+    background: #191414;
     color: #1db954;
 }
 
 .fa-instagram {
-    background-image: url('https://www.pinterest.com/pin/601441725228441217/');
+    background:hotpink;
     color: white;
 }
 
 .fa-pinterest {
-    background-color: #c8232c;
+    background: #c8232c;
     color: white;
 }
 
