@@ -26,7 +26,7 @@ li a, .dropbtn {
     text-decoration: none;
 }
 
-li a:hover:not(.active, .dropdown-content a), .dropdown:hover .dropbtn {
+li a:hover:not(.active, .dropdown-content a, .fa), .dropdown:hover .dropbtn {
     background-color: #72966F;
 }
 
@@ -90,13 +90,6 @@ li div {
 }
 
 .fa {
-    padding: 14px 16px;
-    text-align: center;
-    bottom: 0;
-    text-decoration: none;
-    list-style-type: none;
-    overflow: hidden;
-    position: fixed;
     float: right;
 }
 
