@@ -91,6 +91,7 @@ li div {
 
 .fa {
     float: right;
+    overflow: clip;
 }
 
 .fa:hover {
