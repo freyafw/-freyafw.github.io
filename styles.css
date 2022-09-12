@@ -94,9 +94,9 @@ li div {
     text-align: center;
     bottom: 0;
     text-decoration: none;
-}
-
-footer > ul > li > a {
+    list-style-type: none;
+    overflow: hidden;
+    position: fixed;
     float: right;
 }
 
