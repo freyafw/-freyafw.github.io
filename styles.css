@@ -94,6 +94,7 @@ li div {
     overflow: hidden;
     padding: 0;
     font-size: 16px;
+    margin: 0;
 }
 
 .fa:hover {
