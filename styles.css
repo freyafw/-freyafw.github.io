@@ -89,6 +89,33 @@ li div {
     text-decoration: none;
 }
 
+.fa {
+    float: right;
+    padding: 14px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.8;
+}
+
+.fa-spotify {
+    background-color: #191414;
+    color: #1db954;
+}
+
+.fa-instagram {
+    background-image: url('https://www.pinterest.com/pin/601441725228441217/');
+    background-color:deeppink;
+    color: white;
+}
+
+.fa-pinterest {
+    background-color: #c8232c;
+    color: white;
+}
+
 main {
     margin-top: 28px;
     margin-bottom: 28px;
