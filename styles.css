@@ -93,6 +93,7 @@ li div {
     float: right;
     overflow: hidden;
     padding: 16px;
+    font-size: 16px;
 }
 
 .fa:hover {
@@ -100,7 +101,7 @@ li div {
 }
 
 .fa-spotify {
-    color: #1db954;
+    color: white;
 }
 
 .fa-instagram {
