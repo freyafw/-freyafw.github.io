@@ -1,3 +1,5 @@
+
+
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -12,6 +14,7 @@ header > ul {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 999;
 }
 
 li {
@@ -48,7 +51,7 @@ li.dropdown {
     background-color: #8FBC8B;
     min-width: auto;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    z-index: 2;
     right: 0;
     padding: 0;
     height: 100%;
@@ -117,6 +120,6 @@ main {
     margin-top: 28px;
     margin-bottom: 28px;
     padding: 20px;
-    height: 100%;
+    height: auto;
     overflow: auto;
 }
