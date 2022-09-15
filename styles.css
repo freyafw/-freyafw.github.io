@@ -1,10 +1,8 @@
-
-
 body {
     margin: 0;
 }
 
-header > ul {
+header>ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -16,11 +14,13 @@ header > ul {
     z-index: 999;
 }
 
- header ul li, footer ul li {
+header ul li,
+footer ul li {
     float: left;
 }
 
- header ul li a, .dropbtn {
+header ul li a,
+.dropbtn {
     display: inline-block;
     color: white;
     text-align: center;
@@ -29,7 +29,8 @@ header > ul {
     text-decoration: none;
 }
 
-li a:hover:not(.active, .dropdown-content a, .fa), .dropdown:hover .dropbtn {
+li a:hover:not(.active, .dropdown-content a, .fa),
+.dropdown:hover .dropbtn {
     background-color: #72966F;
 }
 
@@ -50,7 +51,7 @@ li.dropdown {
     position: fixed;
     background-color: #8FBC8B;
     min-width: auto;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 2;
     right: 0;
     padding: 0;
@@ -59,7 +60,7 @@ li.dropdown {
 
 .dropdown-content a {
     display: block;
-    color:white;
+    color: white;
     padding: 12px 16px;
     text-decoration: none;
     text-align: left;
@@ -139,9 +140,9 @@ main {
 }
 
 main:not(.dashboardhtml) {
-    font-family:'Times New Roman', serif;
+    font-family: 'Times New Roman', serif;
 }
 
 .dashboardhtml {
-    font-family:Arial, Helvetica, sans-serif;
-  }
+    font-family: Arial, Helvetica, sans-serif;
+}
