@@ -1,0 +1,33 @@
+.questionans {
+    background-color: #b7d4b5;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main section article {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+h3 {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-height: 332px;
+    float: left;
+    padding-right: 20px;
+}

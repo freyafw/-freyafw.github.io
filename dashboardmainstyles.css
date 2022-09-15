@@ -1,81 +1,90 @@
 table {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 0;
-    margin-left: auto;
-    margin-right: auto;
-    border: 30px solid;
-    border-color: #b7d4b5;
-    border-collapse: collapse;
-    min-width: 1478px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 30px solid;
+  border-color: #b7d4b5;
+  border-collapse: collapse;
+  min-width: 1478px;
 }
 
 th,
 td {
-    border: 1px solid;
-    border-color: #b7d4b5;
-    padding: 12px 14px;
-    text-align: left;
+  border: 1px solid;
+  border-color: #b7d4b5;
+  padding: 12px 14px;
+  text-align: left;
 }
 
 .darkcolor {
-    background-color: #d1e4d0;
+  background-color: #d1e4d0;
 }
 
 .lightcolor {
-    background-color: #e7f1e7;
+  background-color: #e7f1e7;
 }
 
 label {
-    padding-right: 10px;
-    font-size: 1rem;
-    position: relative; top: 10px;
+  padding-right: 10px;
+  font-size: 1rem;
+  position: relative;
+  top: 10px;
 }
 
 progress {
-    width: 787px;
-    position: relative; top: 10px;
-    z-index: 1;
-    margin-top: 33px;
-    margin-bottom: 32px;
-    padding-top: 20px;
+  width: 787px;
+  position: relative;
+  top: 10px;
+  z-index: 1;
+  margin-top: 33px;
+  margin-bottom: 32px;
+  padding-top: 20px;
 }
 
 span {
-    z-index: 1;
-    position: relative;
+  z-index: 1;
+  position: relative;
 }
 
 
 .table-header-rotated {
-    border-collapse: collapse;}
-    .csstransforms, td {
-      width: 30px;
-    }
-    td {
-      text-align: center;
-      padding: 12px 14px;
-      border: 1px solid #ccc;
-    }
-    .csstransforms, th.rotate {
-      height: 29px;
-      white-space: nowrap;}
-      
-       div.header {
-        display: inline-block;
-        transform: 
-          rotate(90deg);
-        width: 30px;
-      }
-      div > span {
-        padding: 5px 10px;
-      }
-    th.row-header {
-      padding: 0px 10px;
-    }
+  border-collapse: collapse;
+}
 
-    th.rotate {
-        padding:0;
-        margin: 0;
-        max-width: 30px;
-    }
+.csstransforms,
+td {
+  width: 30px;
+}
+
+td {
+  padding: 12px 14px;
+  border: 1px solid #ccc;
+}
+
+.csstransforms,
+th.rotate {
+  height: 29px;
+  white-space: nowrap;
+}
+
+div.header {
+  display: inline-block;
+  transform:
+    rotate(90deg);
+  width: 30px;
+}
+
+div>span {
+  padding: 5px 10px;
+}
+
+th.row-header {
+  padding: 0px 10px;
+}
+
+th.rotate {
+  padding: 0;
+  margin: 0;
+  max-width: 30px;
+}

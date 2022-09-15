@@ -2,7 +2,6 @@
 
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 header > ul {
@@ -17,15 +16,16 @@ header > ul {
     z-index: 999;
 }
 
-li {
+ header ul li, footer ul li {
     float: left;
 }
 
-li a, .dropbtn {
+ header ul li a, .dropbtn {
     display: inline-block;
     color: white;
     text-align: center;
     padding: 14px 16px;
+    font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
 }
 
@@ -73,7 +73,7 @@ li.dropdown {
     display: block;
 }
 
-footer > ul {
+footer ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -82,21 +82,21 @@ footer > ul {
     position: fixed;
     bottom: 0;
     width: 100%;
+    z-index: 999;
 }
 
-li div {
+footer ul li div {
     display: inline-block;
     color: white;
     text-align: center;
     padding: 14px 16px;
+    font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
 }
 
 .fa {
     float: right;
     overflow: hidden;
-    padding: 0;
-    font-size: 16px;
     margin: 0;
 }
 
@@ -106,20 +106,42 @@ li div {
 
 .fa-spotify {
     color: white;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 .fa-instagram {
     color: white;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 .fa-pinterest {
     color: white;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 main {
     margin-top: 28px;
     margin-bottom: 28px;
     padding: 20px;
-    height: auto;
     overflow: auto;
 }
+
+main:not(.dashboardhtml) {
+    font-family:'Times New Roman', serif;
+}
+
+.dashboardhtml {
+    font-family:Arial, Helvetica, sans-serif;
+  }
