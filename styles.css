@@ -1,8 +1,39 @@
+@font-face {
+    src: url(fonts/Noto_Sans/NotoSans-Regular.ttf);
+    font-family: NotoSans-Regular;
+}
+
+@font-face {
+    src: url(fonts/Noto_Sans/NotoSans-SemiBold.ttf);
+    font-family: NotoSans-SemiBold;
+}
+
+@font-face {
+    src: url(fonts/Gilroy-FREE/Gilroy-FREE/Gilroy-ExtraBold.otf);
+    font-family: Gilroy-ExtraBold;
+}
+
+h1, h2, h3 {
+    font-family: Gilroy-ExtraBold;
+}
+
+h1 {
+    font-size: 72px;
+}
+
+p {
+    font-size: 17px;
+}
+
+main {
+    font-family: NotoSans-Regular;
+}
+
 body {
     margin: 0;
 }
 
-header>ul {
+header > ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -25,7 +56,7 @@ header ul li a,
     color: white;
     text-align: center;
     padding: 14px 16px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: NotoSans-SemiBold;
     text-decoration: none;
 }
 
@@ -91,7 +122,7 @@ footer ul li div {
     color: white;
     text-align: center;
     padding: 14px 16px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: NotoSans-SemiBold;
     text-decoration: none;
 }
 
@@ -137,12 +168,4 @@ main {
     margin-bottom: 28px;
     padding: 20px;
     overflow: auto;
-}
-
-main:not(.dashboardhtml) {
-    font-family: 'Times New Roman', serif;
-}
-
-.dashboardhtml {
-    font-family: Arial, Helvetica, sans-serif;
 }
