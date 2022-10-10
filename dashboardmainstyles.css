@@ -1,10 +1,19 @@
+body {
+  margin: 0px;
+}
+
+main {
+  margin-left: -20px;
+  margin-right: 0px;
+}
+
 table {
   margin-top: 0px;
   margin-bottom: 0px;
   border: 30px solid;
   border-color: #b7d4b5;
   border-collapse: collapse;
-  min-width: 1478px;
+  min-width: 1519px;
 }
 
 th,
