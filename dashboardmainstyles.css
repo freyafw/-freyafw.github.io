@@ -1,8 +1,6 @@
 table {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
   border: 30px solid;
   border-color: #b7d4b5;
   border-collapse: collapse;
@@ -31,6 +29,8 @@ label {
   position: relative;
   top: 10px;
 }
+
+/* line 63 in dashboard html for progress precentage */
 
 progress {
   width: 787px;
@@ -75,7 +75,7 @@ div.header {
   width: 30px;
 }
 
-div>span {
+div > span {
   padding: 5px 10px;
 }
 
