@@ -1,21 +1,59 @@
+body {
+    background-image: url(profilephoto.img/zetzonnebrilop.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+h1 {
+    color: white;
+}
 .personinfo {
-    background-color: #b7d4b5;
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
 }
+
+.personinfo::before {    
+    content: "";
+    background-color: whitesmoke;
+    background-size: cover;
+    position: absolute;
+    top: 230px;
+    right: 304px;
+    bottom: 130px;
+    left: 304px;
+    opacity: 0.75;
+}
+
+article {
+    position: relative;
+}
+
 img {
-    max-height: 332px;
+    max-height: 386px;
     float: left;
     padding-right: 20px;
 }
 
 .extracurac {
-    background-color: #b7d4b5;
     margin-top: 20px;
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.extracurac::before {    
+    content: "";
+    background-color: whitesmoke;
+    background-size: cover;
+    position: absolute;
+    top: 685px;
+    right: 304px;
+    bottom: -762px;
+    left: 304px;
+    opacity: 0.75;
 }
 
 main section article {
