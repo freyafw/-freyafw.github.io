@@ -1,0 +1,81 @@
+body {
+    background-image: url(profilephoto.img/treinpic.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-bottom: 45px;
+}
+
+.motivation::before {
+    content: "";
+    background-color: whitesmoke;
+    background-size: cover;
+    position: absolute;
+    top: 230px;
+    right: 288px;
+    bottom: 192px;
+    left: 288px;
+    opacity: 0.75;
+}
+
+.whyict::before {
+    content: "";
+    background-color: whitesmoke;
+    background-size: cover;
+    position: absolute;
+    top: 632px;
+    right: 288px;
+    bottom: -135px;
+    left: 288px;
+    opacity: 0.75;
+}
+
+.motivatemotivation::before {
+    content: "";
+    background-color: whitesmoke;
+    background-size: cover;
+    position: absolute;
+    top: 965px;
+    right: 288px;
+    bottom: -367px;
+    left: 288px;
+    opacity: 0.75;
+}
+
+article {
+    position: relative;
+}
+
+.questionans {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main section article {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+h3 {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    color: white;
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-height: 332px;
+    float: left;
+    padding-right: 20px;
+}
