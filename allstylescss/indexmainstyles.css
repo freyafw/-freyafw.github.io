@@ -1,0 +1,42 @@
+body {
+    background-image: url(../imagesbackgroundsmap/treinpic.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-bottom: 45px;
+}
+
+.motivation, .whyict, .motivatemotivation {
+    background-color: #e8e8e8;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    box-shadow: 1px 0 10px #494949;
+}
+
+.whyict {
+    margin-top: 19px;
+}
+
+.motivatemotivation {
+    margin-top: 13px;
+}
+
+.questionans {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main section article {
+    padding: 20px;
+    margin-top: 0px;
+}
+
+img {
+    max-height: 332px;
+    float: left;
+    padding-right: 20px;
+    border-radius: 10px;
+}

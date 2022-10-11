@@ -1,0 +1,45 @@
+body {
+    background-image: url(../imagesbackgroundsmap/zetzonnebrilop.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.personinfo {
+    background-color: #e8e8e8;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 1px;
+  border-radius: 15px;
+  box-shadow: 1px 0 10px #494949;
+}
+
+img {
+    max-height: 386px;
+    float: left;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+
+.extracurac {
+    margin-top: 20px;
+    background-color: #e8e8e8;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    box-shadow: 1px 0 10px #494949;
+    margin-bottom: 20px;
+}
+
+main section article {
+    padding: 20px;
+}
+
+main section article ul li {
+    margin-left: -40px;
+   list-style-type: none;
+   margin-bottom: 0px;
+}
