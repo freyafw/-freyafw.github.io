@@ -13,27 +13,54 @@
     font-family: Gilroy-ExtraBold;
 }
 
-h1, h2, h3 {
+h1 {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 100px;
+    margin-bottom: 25px;
+    margin-top: 38px;
+    text-shadow: 1px 0 10px #323232;
+}
+
+h1,
+h2 {
     font-family: Gilroy-ExtraBold;
 }
 
-h1 {
-    font-size: 72px;
+h2 {
+    margin: 0;
+    padding-left: 0;
 }
 
 p {
     font-size: 17px;
+    color: black;
+    text-indent: 40px;
+    margin: 10px;
+    margin-bottom: 0px;
 }
 
 main {
     font-family: NotoSans-Regular;
 }
 
+main a {
+    text-decoration: none;
+    font-style: italic;
+    color: black;
+}
+
+main a:hover {
+    color: #939393;
+}
+
 body {
     margin: 0;
 }
 
-header > ul {
+header>ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -43,6 +70,7 @@ header > ul {
     top: 0;
     width: 100%;
     z-index: 999;
+    box-shadow: 1px 0 10px #191919;
 }
 
 header ul li,
@@ -82,8 +110,8 @@ li.dropdown {
     position: fixed;
     background-color: #8FBC8B;
     min-width: auto;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 2;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     right: 0;
     padding: 0;
     height: 100%;
@@ -111,6 +139,7 @@ footer ul {
     padding: 0;
     overflow: hidden;
     background-color: #5B7859;
+    box-shadow: 1px 0 10px #191919;
     position: fixed;
     bottom: 0;
     width: 100%;
